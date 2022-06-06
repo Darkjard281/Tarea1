@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sneaker Drop</title>       
+        <link href="misEstilos/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="misEstilos/registrarse.css" rel="stylesheet" type="text/css"/>
+        <link href="misEstilos/Normalize.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header">
+            <img class="logo" src="imagenes/logo.jpg" alt="Logo Sneakers Drop"/>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__ul-li"><a class="nav__ul-li-link" href="index.html">Inicio</a></li>
+                    <li class="nav__ul-li"><a class="nav__ul-li-link" href="registrarse.html">Registrarse</a></li>
+                    <li class="nav__ul-li"><a class="nav__ul-li-link" href="extras.html">Extras</a></li>                        
+                    <li class="nav__ul-li"><a class="nav__ul-li-link" href="sobreNosotros.html">Sobre nosotros</a></li>                          
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 class="titulo1">Bienvenido</h1>
+            <h2 class="titulo2" >Ingrese los datos para ser parte de <i class="SneakesDropLBL">Sneaker Drop</i></h2>
+            <form class="form__register">
+                <h3 class="titulo3">Formulario de registro</h3>
+                <input class="input" id="nombre" type="name" name="name" placeholder="Ingrese su Nombre">
+                <input class="input" id="apellidos" type="" name="apellidos" placeholder="Ingrese sus Apellidos">
+                <input class="input" id="correo" type="email" name="email" placeholder="Ingrese su correo">
+                <input class="input" id="contraseña1" type="password" name="password" placeholder="Ingrese su contraseña">
+                <input class="input" id="contraseña2" type="password" name="password" placeholder="Ingrese su contraseña nuevamente">
+                <p>Estoy de acuerdo con los<a href=""> Terminos y Condiciones</a></p>
+                <input class="boton" id="submit-btn" type="submit" name="submit">
+                <p><a href="">¿Ya tengo cuenta?</a></p>
+            </form>
+        </section>
+    </body>
+</html>
