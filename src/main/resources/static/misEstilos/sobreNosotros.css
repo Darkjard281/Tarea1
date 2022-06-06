@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2022, 9:52:24 PM
+    Author     : jarod
+*/
+
+#infolateral{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.lblinfoNostros{
+    padding: 10px;
+}
+
+#lblUbicacionyContacto{
+    position: relative;
+    height: 600vh;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    height: 700px;
+    background-color: #000;
+    
+}
+
+.aside__titles{
+    color: #990033;
+    text-align: center;
+    padding-top: 10px;
+    padding: 10px 0;
+}
+
+#titulofooter{
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+#mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 5px;  
+}
+
+.footer{
+    position: fixed;
+    height: 16%;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    background: linear-gradient(135deg,#990033,#990033,#000); 
+}
+
+.article__infoCont{
+    color: white;
+    padding: 10px 0;
+}
+
+.article__infoCont-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.article__infoCont-link:hover{
+    text-decoration: underline;
+    color: #990033;
+}
+

@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2022, 1:08:36 PM
+    Author     : jarod
+*/
+h1, .youtube,.spotify, h2{
+    padding: 10px 0;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.youtube{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+h2{
+    text-align: center;
+    
+}
+.spotify{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+
